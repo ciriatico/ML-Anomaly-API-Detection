@@ -11,7 +11,7 @@ A FastAPI-based microservice for detecting anomalies in time series data. The AP
 - **PostgreSQL Storage**: Persistent storage for training data and metadata (allowing the /plot endpoint)
 - **MLflow Integration**: Experiment tracking and model management
 - **Prometheus Metrics**: Real-time monitoring and performance metrics
-- **Grafana Dashboards**: Visual monitoring of API performance
+- **Grafana Dashboards**: Visual monitoring of API performance (a simple dashboard is already ready to use)
 - **Containerized Deployment**: Full Docker Compose setup
 - **Concurrent Processing**: Handle multiple training and prediction requests simultaneously
 
@@ -38,7 +38,7 @@ The system consists of the following components:
 1. **Clone the repository**
    ```bash
    git clone git@github.com:ciriatico/ML-Anomaly-API-Detection.git
-   cd anomaly-detection-api
+   cd ML-Anomaly-API-Detection
    ```
 
 2. **Start the services**
