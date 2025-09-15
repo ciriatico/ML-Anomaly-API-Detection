@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+numpy
+prometheus-client
+matplotlib
+joblib
+redis
+mlflow
+psycopg2
+matplotlib
